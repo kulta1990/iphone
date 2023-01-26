@@ -1,0 +1,303 @@
+.navbar_row,
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    display: inline-block;
+    top: 0;
+
+
+}
+
+.navbar_row {
+    position: fixed;
+}
+
+#navbar_pic {
+    width: 70px;
+    margin-bottom: 20px;
+
+
+}
+
+.search_button {
+    background-color: rgb(209, 37, 37);
+    border-style: none;
+    color: white;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 5px rgb(45, 47, 44);
+    cursor: pointer;
+
+}
+
+.search_form {
+    width: 200px;
+    height: 26px;
+    border-style: solid;
+    border-color: rgb(207, 130, 130);
+    border-radius: 5px;
+}
+
+.div_search_button {
+
+    opacity: 0.8;
+    transition: 0.3s;
+    margin-left: 15cm;
+    vertical-align: top;
+    margin-top: 0.8cm;
+    position: absolute;
+}
+
+
+.div_search_button:hover {
+
+    opacity: 1;
+    transition: 0.3s;
+    color: black;
+}
+
+#zoom_icon_nav {
+    margin-right: 10px;
+}
+
+#h1_nav {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    margin-left: 0.5cm;
+    vertical-align: top;
+    margin-top: 12px;
+    margin-right: 0.5cm;
+    float: right;
+
+}
+
+.nav_ul li,
+footer ul li {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.2cm;
+    padding-top: 10px;
+    padding-left: 0cm;
+    margin-left: 0.5cm;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.nav_ul {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.navbar_pic_div,
+.company_name_nav,
+.nav_ul,
+.div_search_button,
+footer ul li {
+    display: inline-block;
+
+}
+
+.section1,
+.section2,
+.section3 {
+    background-color: rgb(185, 181, 181);
+    height: 10cm;
+    width: 7cm;
+    display: inline-block;
+    margin-left: 2cm;
+    margin-top: 3cm;
+    margin-bottom: 2cm;
+    vertical-align: bottom;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    box-shadow: 5px 5px 5px rgb(147, 148, 148);
+
+}
+
+.section1:hover,
+.section2:hover,
+.section3:hover {
+    box-shadow: 5px 5px 5px rgb(244, 248, 248);
+    border-radius: 5px;
+    margin-bottom: 0.5cm;
+}
+
+footer ul {
+    text-align: center;
+}
+
+.container {
+    margin-left: 10%;
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+
+}
+
+body {
+    background-image: url(card-images/background-image.jpg);
+}
+
+.img1,
+.img2,
+.img3 {
+    width: 7cm;
+    height: 6cm;
+    object-fit: cover;
+    object-position: top;
+
+
+}
+
+.card_text {
+    padding: 10px;
+    object-fit: contain;
+}
+
+hr {
+    color: black;
+    border-style: dotted;
+    border-width: 5px;
+    width: 1cm;
+    border-top: none;
+    color: rgb(70, 74, 77);
+
+}
+
+h5 {
+    margin-top: auto;
+    margin-top: 0;
+    text-align: center;
+}
+
+.cardscontainer p {
+    font-size: medium;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: bisque;
+}
+
+h5,
+p {
+    text-decoration: none;
+    color: rgb(104, 33, 9);
+}
+
+.text2 {
+    background-color: rgb(121, 58, 58);
+    color: white;
+    width: 470px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2pt;
+    font-size: xx-large;
+    padding: 25px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px rgba(220, 101, 16, 0.4);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.text2 h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2pt;
+}
+
+#registration {
+
+    width: 500px;
+    background-color: bisque;
+    padding: 20px;
+    font-family: fantasy;
+    letter-spacing: 0.2pt;
+    float: right;
+    margin-top: 1.6cm;
+    margin-right: 4.2cm;
+    box-shadow: 5px 5px 5px rgba(247, 244, 241, 0.4);
+    color: rgb(89, 88, 88);
+}
+
+fieldset {
+    border-width: 5px;
+    border-style: double;
+    border-color: rgb(177, 147, 86);
+
+}
+
+input {
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px rgba(220, 101, 16, 0.4);
+}
+
+#gomb2 {
+    background-color: rgb(209, 37, 37);
+    border-style: none;
+    color: white;
+    width: 130px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 5px rgb(45, 47, 44);
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+
+}
+
+#gomb2:hover {
+    opacity: 1;
+    transition: 0.3s;
+    width: 150px;
+}
+
+#sikeres_reg {
+    background-color: rgb(89, 92, 89);
+    margin-top: 5cm;
+    margin-left: 33%;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    padding: 30px;
+    text-align: center;
+    border-style: solid;
+}
+#sikeres_reg p{
+    color: rgb(238, 244, 238) !important;
+    padding: 0%;
+    text-align: center;
+    font-size: xx-large;
+}
+#gomb_success{
+    background-color: rgb(18, 165, 8);
+    border-style: none;
+    color: white;
+    width: 130px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 5px rgb(45, 47, 44);
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+   
+}
+#gomb_success:hover {
+    opacity: 1;
+    transition: 0.3s;
+    width: 150px;
+}
+
